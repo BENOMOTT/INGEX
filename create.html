@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MasterBikes - Inicio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <a class="navbar-brand" href="index.html">MasterBikes</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li>
+                <a class="nav-link" href="login.html">Iniciar Sesion</a>
+            </li>
+            <li>
+                <a class="nav-link" href="create.html">Registrarse</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="arriendo.html">Arriendo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="reparacion.html">Reparación</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+
+    </nav>
+  </header>
+
+
+<h1>Registrate!</h1>
+
+<div class="container">
+<form class="row g-3 needs-validation" novalidate>
+
+    <div class="col-md-4">
+      <label for="validationCustom01" class="form-label">Nombre</label>
+      <input type="text" class="form-control" id="validationCustom01" placeholder="Introduce tu nombre" required>
+      <div class="valid-feedback">
+        Se ve bien!
+      </div>
+    </div>
+    <div class="col-md-4">
+      <label for="validationCustom02" class="form-label">Apellido</label>
+      <input type="text" class="form-control" id="validationCustom02" placeholder="Introduce tu apellido" required>
+      <div class="valid-feedback">
+        Se ve bien!
+      </div>
+    </div>
+    <div class="col-md-4">
+      <label for="validationCustomUsername" class="form-label">Nombre de usuario</label>
+      <div class="input-group has-validation">
+        <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" placeholder="Introduce tu nombre de usuario" required>
+        <div class="invalid-feedback">
+          Nombre de usuario invalido.
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+        <label for="validationCustom01" class="form-label">Email</label>
+        <input type="email" class="form-control" id="validationCustom01" placeholder="Introduce tu direccion Email" required>
+        <div class="valid-feedback">
+          Introduce un Email.
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <label for="validationCustom01" class="form-label">Contraseña</label>
+        <input type="password" class="form-control" id="validationCustom01" placeholder="Introduce tu contraseña" required>
+        <div class="valid-feedback">
+          Se ve bien!
+        </div>
+      </div>
+
+    <div class="col-md-6">
+      <label for="validationCustom03" class="form-label">Comuna</label>
+      <input type="text" class="form-control" id="validationCustom03" placeholder="Introduce tu comuna" required>
+      <div class="invalid-feedback">
+        Porfavor introduce una Comuna.
+      </div>
+    </div>
+    <div class="col-md-3">
+      <label for="validationCustom04" class="form-label">Region</label>
+      <select class="form-select" id="validationCustom04" required>
+        <option selected disabled value="">Selecciona tu region</option>
+        <option>I Region</option>
+        <option>II Region</option>
+        <option>III Region</option>
+        <option>IV Region</option>
+        <option>V Region</option>
+        <option>VI Region</option>
+        <option>VII Region</option>
+        <option>VIII Region</option>
+        <option>IX Region</option>
+        <option>X Region</option>
+        <option>XI Region</option>
+        <option>XII Region</option>
+        <option>Region Metropolitana</option>
+        <option>XIV Region</option>
+        <option>XV Region</option>
+        <option>XVI Region</option>
+      </select>
+      <div class="invalid-feedback">
+        Selecciona una region valida.
+      </div>
+    </div>
+   
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+        <label class="form-check-label" for="invalidCheck">
+          Acepto los terminos y condiciones.
+        </label>
+        <div class="invalid-feedback">
+          Debes aceptar los terminos antes de enviar.
+        </div>
+      </div>
+    </div>
+    <div class="col-12">
+      <button class="btn btn-primary" type="submit">Enviar.</button>
+    </div>
+  </form>
+</div>
+
+<footer class="bg-dark text-white text-center py-3">
+  <p class="mb-0">&copy; 2023 MasterBikes. Todos los derechos reservados.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
